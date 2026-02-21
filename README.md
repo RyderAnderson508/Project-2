@@ -1,1 +1,7 @@
-# Project-2
+# Project-2 Automation of Nebraska Department of Transportation's (NDOT) Concrete Mix-Design.
+
+Summary of the Project:
+This project enables full automation of the Nebraska Department of Transportation (NDOT) concrete mix-design workflow. Each of the steps needed to create a concrete mix-design are provided in Excel, using a spreadsheet workbook titled "Mix Design"; however, each of the steps in the spreadsheet will be executed by a Python program. Users will be able to input material weights, aggregate percentages, and specific gravities and, in a guided, step-by-step manner, the program will produce a complete weight chart for one cubic yard of concrete. Transitioning the workflow from Excel to a Python program will increase reliability, transparency, and repeatability. 
+
+User Guide:
+Users will be prompted to give the program project specifications in a text box that will appear below the code cell once the code is ran. The user will then be asked to input cement material weights, water/cement weight ratio, air content, aggregate percentages, and specific gravities. Each of these inputs will be integrated into the program's mix_design() function to automate the NDOT volume-balance, weight-to-volume, remaining aggregate volume, and equal the required weights of fine-coarse-other aggregates calculations. The program will output a complete NDOT summary table of the material quantities for a cubic yard of concrete. The automation and model created for the NDOT concrete mixes were validated by running four realistic concrete mixes.
